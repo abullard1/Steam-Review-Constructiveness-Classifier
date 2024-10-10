@@ -1,15 +1,17 @@
 <p align="center">
-  <img src="https://i.ibb.co/Ky0wcYy/abullard1-steam-review-constructiveness-classifier-logo-modified-1.png" alt="Logo" width="200">
+  <a href="https://github.com/abullard1/Steam-Review-Constructiveness-Classifier">
+    <img src="https://i.ibb.co/Ky0wcYy/abullard1-steam-review-constructiveness-classifier-logo-modified-1.png" alt="Logo" width="200">
+  </a>
 </p>
 
 <h1 align="center">Fine-tuned ALBERT Model for Constructiveness Detection in Steam Reviews</h1>
 
 ## Repository Contents
-1. **ALBERT-V2 Steam Game-Review Constructiveness Classification Model**
+1. **[ALBERT-V2 Steam Game-Review Constructiveness Classification Model](/Model)**
 
-2. **1.5k Steam Reviews with Binary Constructiveness Labels**
+2. **[1.5k Steam Reviews with Binary Constructiveness Labels Dataset](/Dataset)**
 
-3. **Jupyter Notebooks for: Data Filtering, Data Preprocessing, Training, Inference, Evaluation**
+3. **Jupyter Notebooks for: [Data Filtering](Code/Filtering.ipynb), [Data Preprocessing](Code/Preprocessing.ipynb), [Training](Code/Fine-Tuning.ipynb), [Inference](Code/Inference.ipynb), [Evaluation](Code/Evaluation.ipynb)**
 
 
 ## Model Summary
@@ -85,11 +87,11 @@ Originally, the model was created as part of the process of evaluating several d
 
 The repository contains the following **five jupyter notebooks**:
 
-- **Filtering**: Filtering and reduction of the base dataset to a smaller more usable one.
-- **Preprocessing**: Basic and conservative preprocssing, fit for transformer-based LLM fine-tuning. Simple statistical analysis of the dataset and annotations.
-- **Training**: Fine-Tuning / Training of the model.
-- **Inference**: Simple testing environment.
-- **Evaluation**: Evaluation environment to evaluate the aformentioned classification models against eachother.
+- **[Filtering](Code/Filtering.ipynb)**: Filtering and reduction of the base dataset to a smaller more usable one.
+- **[Preprocessing](Code/Preprocessing.ipynb)**: Basic and conservative preprocssing, fit for transformer-based LLM fine-tuning. Simple statistical analysis of the dataset and annotations.
+- **[Training](Code/Fine-Tuning.ipynb)**: Fine-Tuning / Training of the model.
+- **[Inference](Code/Inference.ipynb)**: Simple testing environment.
+- **[Evaluation](Code/Evaluation.ipynb)**: Evaluation environment to evaluate the aformentioned classification models against eachother.
 
 <u>Note:</u>
 Please take into account that the jupyter notebooks are a mix of working with [Google Colab](https://colab.research.google.com/) computing resources and local resources.
