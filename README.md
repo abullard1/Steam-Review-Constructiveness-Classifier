@@ -151,7 +151,9 @@ print(result)
 
 Alterantively the **Jupyter Notebooks** contained in this repository can be used to test the model or even replicate the process of training/fine-tuning.
 
-An interesting case for further modifications or improvements, would be to augment or modify the training dataset. Feel free to do so.
+The notebooks contain **useful code comments** throughout, describing what is happening at every step of the way.
+
+*An interesting case for further modifications or improvements, would be to augment or modify the training dataset. Feel free to do so.*
 
 ## <u>License</u>
 
