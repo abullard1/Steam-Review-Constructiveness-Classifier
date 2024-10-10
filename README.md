@@ -153,7 +153,7 @@ Alterantively the **Jupyter Notebooks** contained in this repository can be used
 
 The notebooks contain **useful code comments** throughout, describing what is happening at every step of the way.
 
-*An interesting case for further modifications or improvements, would be to augment or modify the training dataset. Feel free to do so.*
+*An interesting case for further modifications or improvements, would be to **augment or modify the training dataset**. Feel free to do so.*
 
 ## <u>License</u>
 
