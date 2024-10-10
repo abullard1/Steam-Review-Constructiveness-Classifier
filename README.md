@@ -35,7 +35,7 @@ The model can be applied in any scenario where it's important to distinguish bet
 
 The dataset contained in this repository consists of **1,461 Steam reviews** from **10 of the most reviewed games** in the base [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews) dataset. Each game has approximately the same number of reviews. Each review is annotated with a **binary label** indicating whether the review is **constructive** or not.
 
-Also available as additional data are **train/dev/test split** CSV files. These contain the features of the base dataset, concatenated into strings, next to the binary constructiveness labels. These CSVs were used to train the model.
+Also available as additional data are **train/dev/test split** CSV files. These contain the features of the main dataset, concatenated into strings, next to the binary constructiveness labels. These CSVs were used to train the model.
 
 The dataset is designed to support tasks related to **text classification**, particularly **constructiveness detection** in the gaming domain. It is particularly useful for training models like **BERT** and its derivatives or any other NLP models aimed at classifying text for constructiveness.
 
